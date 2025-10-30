@@ -12,6 +12,7 @@
   </header>
   <main>
      <h2>Tell us about your interest</h2>
+    <div class="content-card">
       <form method="POST">
           <h3>Let&apos;s setup your profile</h3>
           <input type="text" name="name" placeholder="Your name">
@@ -19,9 +20,9 @@
          <input type="password" name="password" placeholder="Password">
          <input type="text" name="age" placeholder="Age">
          <select name="marital-status">
-             <option value="">I&apos;m single</option>
-             <option value="">I&apos;m Married</option>
-             <option value="">I&apos;m Separated</option>
+             <option value="single">I&apos;m single</option>
+             <option value="married">I&apos;m Married</option>
+             <option value="separated">I&apos;m Separated</option>
          </select>
          <label>Do you have children?</label>
          <select name="marital-status">
@@ -34,6 +35,7 @@
          </div>
          <input type="submit" name="submit" value="Next">
       </form>
+    </div>
       <div class="progress-status">
           <div></div>
           <div></div>

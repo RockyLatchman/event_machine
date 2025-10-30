@@ -26,7 +26,6 @@ switch ($page) {
             exit();
         }
         break;
-
     case '/event_machine/location':
         require '../src/views/user/location.php';
         break;
@@ -40,6 +39,9 @@ switch ($page) {
         break;
     case '/event_machine/browse/events':
         require '../src/views/events/browse.php';
+        break;
+    case '/event_machine/messages':
+        require '../src/views/messages/view_all.php';
         break;
 
 
