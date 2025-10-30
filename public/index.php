@@ -20,6 +20,13 @@ switch ($page) {
         break;
     case '/event_machine/interests':
         require '../src/views/user/interests.php';
+        if (isset($_POST['save'])) {
+            header('Location: /event_machine/location');
+            exit();
+        }
+        break;
+    case '/event_machine/location':
+        require '../src/views/user/location.php';
         break;
 
 

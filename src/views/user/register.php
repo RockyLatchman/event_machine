@@ -14,7 +14,7 @@
      <h2>Tell us about your interest</h2>
       <form method="POST">
           <h3>Let&apos;s setup your profile</h3>
-          <input type="name" name="name" placeholder="Your name">
+          <input type="text" name="name" placeholder="Your name">
          <input type="email" name="email" placeholder="Email">
          <input type="password" name="password" placeholder="Password">
          <input type="text" name="age" placeholder="Age">
