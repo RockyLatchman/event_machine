@@ -38,6 +38,9 @@ switch ($page) {
             exit();
         }
         break;
+    case '/event_machine/browse/events':
+        require '../src/views/events/browse.php';
+        break;
 
 
 
