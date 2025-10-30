@@ -4,13 +4,13 @@
       <nav>
         <menu>
             <li><a href="">Sign in</a></li>
-            <li><a href="">Sign up</a></li>
+            <li><a href="/event_machine/register">Sign up</a></li>
         </menu>
       </nav>
   </header>
   <main>
       <h1>Share your events or find cool things going on around you</h1>
-      <span><a href="">Get Started</a></span>
+      <span><a href="/event_machine/register">Get Started</a></span>
   </main>
   <footer><p>All rights reserved &copy; 2025</p></footer>
 </div>
