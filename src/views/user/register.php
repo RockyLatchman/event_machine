@@ -6,7 +6,7 @@
             <li><a href="">About</a></li>
             <li><a href="">Contact</a></li>
             <li><a href="/event_machine/register">Get Started</a></li>
-            <li><a href="">Sign in</a></li>
+            <li><a href="/event_machine/login">Sign in</a></li>
         </menu>
       </nav>
   </header>

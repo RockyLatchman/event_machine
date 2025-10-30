@@ -3,7 +3,7 @@
      <h3>Event Machine</h3>
       <nav>
         <menu>
-            <li><a href="">Sign in</a></li>
+            <li><a href="/event_machine/login">Sign in</a></li>
             <li><a href="/event_machine/register">Sign up</a></li>
         </menu>
       </nav>

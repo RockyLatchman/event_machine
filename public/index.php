@@ -11,6 +11,9 @@ switch ($page) {
     case '/event_machine/register':
         require '../src/views/user/register.php';
         break;
+    case '/event_machine/login':
+        require '../src/views/user/login.php';
+        break;
 
 }
 
