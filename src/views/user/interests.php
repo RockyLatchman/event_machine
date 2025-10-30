@@ -13,7 +13,7 @@
   <main>
      <h2>Tell us about your interest</h2>
       <form method="POST">
-          <h3>Sports and outdoor activities</h3>
+         <label>Sports and outdoor activities<label>
          <select name="outdoor-activities">
              <option value="hiking">Hiking</option>
              <option value="jogging">Jogging</option>
