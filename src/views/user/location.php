@@ -12,7 +12,7 @@
   </header>
   <main>
      <h2>Location</h2>
-      <form method="POST">
+      <form method="POST" action="/event_machine/all-done">
           <h3>Where do you live?</h3>
           <input type="text" name="city" placeholder="City">
           <label>State</label>
@@ -317,9 +317,11 @@
              <option value="Zimbabwe">Zimbabwe</option>
          </select>
         <input type="text" name="zip" placeholder="Zip code">
-        <input type="submit" name="submit" value="Next">
+        <input type="submit" name="next" value="Next">
       </form>
       <div class="progress-status">
+          <div></div>
+          <div></div>
           <div></div>
           <div></div>
       </div>

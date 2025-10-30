@@ -1,5 +1,6 @@
 <?php
-
+ini_set('display_errors', '1');
+error_reporting(E_ALL);
 $page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
 require '../src/views/header.php';
@@ -25,9 +26,19 @@ switch ($page) {
             exit();
         }
         break;
+
     case '/event_machine/location':
         require '../src/views/user/location.php';
         break;
+
+    case '/event_machine/all-done':
+        require '../src/views/user/finished.php';
+        if (isset($_POST['next'])) {
+            header('Location: /event_machine/all-done');
+            exit();
+        }
+        break;
+
 
 
 }

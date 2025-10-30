@@ -48,6 +48,8 @@
       <div class="progress-status">
           <div></div>
           <div></div>
+          <div></div>
+          <div></div>
       </div>
   </main>
   <footer><p>All rights reserved &copy; 2025</p></footer>
