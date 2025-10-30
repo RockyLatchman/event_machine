@@ -40,6 +40,9 @@ switch ($page) {
     case '/event_machine/browse/events':
         require '../src/views/events/browse.php';
         break;
+    case '/event_machine/event':
+        require '../src/views/events/view.php';
+        break;
     case '/event_machine/messages':
         require '../src/views/messages/view_all.php';
         break;

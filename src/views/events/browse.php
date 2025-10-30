@@ -17,6 +17,7 @@
        <div class="event-filters">
        <div id="today">Today</div>
        <div id="month">Next 30 days</div>
+       </div>
        <select name="category">
            <option value="" selected>Choose category</option>
            <option value="sports_outdoor">Sports and outdoor activities</option>
@@ -40,7 +41,28 @@
                 <p>Los Angeles<span> 10 mi from you</span></p>
                 <h3>Single 40 somethins</h3>
              </header>
-             <div class="event-details">
+             <div class="group-details">
+                <p>
+                    Join a group of singles in your area seeking love. We meet ever other Saturday of the month
+                    and participate in everything from movie nights to bar hoppings and charade.
+                </p>
+                <ul>
+                  <li><a href="">Request to join</a></li>
+                  <li><a href="/event_machine/event">Find out more</a></li>
+                </ul>
+             </div>
+          </div>
+      </div>
+      <div class="event-card">
+          <div class="left-column">
+             <img src="/event_machine/public/images/" alt="Image of event">
+          </div>
+          <div class="right-column">
+             <header>
+                <p>Los Angeles<span> 10 mi from you</span></p>
+                <h3>Single 40 somethins</h3>
+             </header>
+             <div class="group-details">
                 <p>
                     Join a group of singles in your area seeking love. We meet ever other Saturday of the month
                     and participate in everything from movie nights to bar hoppings and charade.
@@ -61,7 +83,7 @@
                 <p>Los Angeles<span> 10 mi from you</span></p>
                 <h3>Single 40 somethins</h3>
              </header>
-             <div class="event-details">
+             <div class="group-details">
                 <p>
                     Join a group of singles in your area seeking love. We meet ever other Saturday of the month
                     and participate in everything from movie nights to bar hoppings and charade.
@@ -82,7 +104,7 @@
                 <p>Los Angeles<span> 10 mi from you</span></p>
                 <h3>Single 40 somethins</h3>
              </header>
-             <div class="event-details">
+             <div class="group-details">
                 <p>
                     Join a group of singles in your area seeking love. We meet ever other Saturday of the month
                     and participate in everything from movie nights to bar hoppings and charade.
@@ -103,28 +125,7 @@
                 <p>Los Angeles<span> 10 mi from you</span></p>
                 <h3>Single 40 somethins</h3>
              </header>
-             <div class="event-details">
-                <p>
-                    Join a group of singles in your area seeking love. We meet ever other Saturday of the month
-                    and participate in everything from movie nights to bar hoppings and charade.
-                </p>
-                <ul>
-                  <li><a href="">Request to join</a></li>
-                  <li><a href="">Find out more</a></li>
-                </ul>
-             </div>
-          </div>
-      </div>
-      <div class="event-card">
-          <div class="left-column">
-             <img src="/event_machine/public/images/" alt="Image of event">
-          </div>
-          <div class="right-column">
-             <header>
-                <p>Los Angeles<span> 10 mi from you</span></p>
-                <h3>Single 40 somethins</h3>
-             </header>
-             <div class="event-details">
+             <div class="group-details">
                 <p>
                     Join a group of singles in your area seeking love. We meet ever other Saturday of the month
                     and participate in everything from movie nights to bar hoppings and charade.
