@@ -1,2 +1,1 @@
-*.php diff=php
-*.php eol=lf
+*.php linguist-language=PHP
