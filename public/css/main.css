@@ -16,11 +16,12 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 width: 100%;
-height: 65px;
+height: 50px;
 padding: 25px 0;
+margin-top: 10px;
 }
 
-header nav menu li {
+#homepage nav menu li {
 display: inline-block;
 list-style-type: none;
 margin-right: 25px;
@@ -31,37 +32,50 @@ line-height: 2.5em;
 border-radius: 10px;
 }
 
-header nav menu li:first-of-type {
+#homepage nav menu li:first-of-type {
 border: 1px solid #fafafa;
 }
 
-header nav menu li:last-of-type {
+#homepage nav menu li:last-of-type,
+.top-menu nav menu li:last-of-type {
 background: #fafafa;
 }
 
-header nav menu li a {
-font: normal 500 1em "sigmund-pro", sans-serif;
+#homepage nav menu li a,
+ .top-menu nav menu li a {
+font: normal 500 0.9em "sigmund-pro", sans-serif;
 color: #fafafa;
 text-decoration: none;
 }
 
-header nav menu li:last-of-type a {
+#homepage nav menu li:last-of-type a,
+.top-menu nav menu li:last-of-type a {
 color: #400862;
+}
+
+.top-menu nav menu li {
+display: inline-block;
+list-style-type: none;
+margin-right: 15px;
+width: 120px;
+height: 40px;
+text-align: center;
+line-height: 2.5em;
+border-radius: 10px;
 }
 
 header h3 {
 font: normal 700 1.4em "sigmund-pro", sans-serif;
 color: #fafafa;
 margin-left: 35px;
-margin-top: 4px;
 width: 60%;
 }
 
 main {
 width: 75%;
-height: 60vh;
+height: 58vh;
 padding-bottom: 75px;
-margin: 75px auto 0 auto;
+margin: 25px auto 0 auto;
 }
 
 main h1 {
@@ -84,8 +98,125 @@ line-height: 2.9em;
 margin-top: 25px;
 }
 
+.content-card {
+width: 45%;
+height: auto;
+margin: 0 auto;
+border-radius: 25px;
+background: #fafafa;
+padding: 15px 15px 35px 15px;
+}
+
+.content-card form {
+width: 90%;
+margin: 0 auto;
+padding-top: 25px;
+text-align: left;
+}
+
+.content-card form input::placeholder {
+padding-left: 5px;
+color: #939393;
+}
+
+.content-card h3 {
+font: normal 700 1.4em "sigmund-pro", sans-serif;
+color: #400862;
+margin-top: 4px;
+width: 90%;
+}
+
+.content-card p {
+font: normal 500 0.8em "sigmund-pro", sans-serif;
+color: #400862;
+margin-bottom: 10px;;
+}
+
+.content-card form label {
+display: block;
+font: normal 500 0.8em "sigmund-pro", sans-serif;
+color: #400862;
+width: 100%;
+margin: 8px 0;
+}
+
+.content-card input[type='text'],
+.content-card input[type='email'],
+.content-card input[type='password']
+{
+width: 100%;
+height: 35px;
+margin: 10px auto;
+border: 1px solid #ccc;
+border-radius: 8px;
+background: #fafafa;
+font: normal 500 0.8em "sigmund-pro", sans-serif;
+color: #939393;
+outline: none;
+}
+
+.content-card select {
+width: 100%;
+height: 30px;
+margin: 0 auto;
+border: 1px solid #ccc;
+border-radius: 8px;
+background: transparent;
+font: normal 500 0.8em "sigmund-pro", sans-serif;
+color: #939393;
+}
+
+.content-card select:last-of-type {
+margin-bottom: 10px;
+}
+
+.content-card .profile-photo {
+width: 100%;
+height: 50px;
+margin: 10px auto;
+border-radius: 8px;
+background:#400862;
+text-align: center;
+color: #fafafa;
+font: normal 500 0.8em "sigmund-pro", sans-serif;
+line-height: 3.5em;
+}
+
+.content-card .profile-photo input[type='file'] {
+width: 33.5%;
+height: 45px;
+text-indent: -1000000px;
+position: fixed;
+margin: -43px 0 0 -255px;
+cursor: pointer;
+}
+
+.content-card .profile-photo span {
+display: block;
+height: 45px;
+}
+
+.content-card input[type='submit']
+{
+width: 100%;
+height: 50px;
+margin: 10px auto;
+border: none;
+border-radius: 8px;
+background: #a01c9a;
+font: normal 500 0.8em "sigmund-pro", sans-serif;
+color: #fafafa;
+cursor: pointer;
+}
+
+
+
+
+
+
+
 footer p {
 font: normal 500 0.8em "sigmund-pro", sans-serif;
 color: #fafafa;
-margin-left: 35px;
+text-align: center;
 }

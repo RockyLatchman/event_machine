@@ -1,5 +1,5 @@
 <div class="page-wrapper">
-  <header>
+  <header class="top-menu">
      <h3>Event Machine</h3>
       <nav>
         <menu>
@@ -12,6 +12,7 @@
   </header>
   <main>
      <h2>Tell us about your interest</h2>
+     <div class="main-card">
       <form method="POST">
          <label>Sports and outdoor activities<label>
          <select name="outdoor-activities">
@@ -45,6 +46,7 @@
          <input type="button" name="add-activity" value="Add activity">
          <input type="submit" name="save" value="Next">
       </form>
+     </div>
       <div class="progress-status">
           <div></div>
           <div></div>
@@ -52,5 +54,4 @@
           <div></div>
       </div>
   </main>
-  <footer><p>All rights reserved &copy; 2025</p></footer>
 </div>

@@ -1,5 +1,5 @@
 <div class="page-wrapper">
-  <header>
+  <header id="homepage">
      <h3>Event Machine</h3>
       <nav>
         <menu>
@@ -8,7 +8,7 @@
         </menu>
       </nav>
   </header>
-  <main>
+  <main id="homepage">
       <h1>Share your events or find cool things going on around you</h1>
       <span><a href="/event_machine/register">Get Started</a></span>
   </main>

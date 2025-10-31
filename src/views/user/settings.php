@@ -12,7 +12,7 @@
       </nav>
   </header>
   <main>
-      <div class="settings-card">
+      <div class="content-card">
         <form method="POST">
          <h2>Settings</h2>
          <label for="name">Change name</label>
@@ -91,5 +91,4 @@
        </form>
      </div>
    </main>
-  <footer><p>All rights reserved &copy; 2025</p></footer>
 </div>
