@@ -1,5 +1,5 @@
 <div class="page-wrapper">
-  <header>
+  <header class="top-menu">
      <h3>Event Machine</h3>
       <nav>
         <menu>
@@ -11,9 +11,10 @@
       </nav>
   </header>
   <main>
-     <h2>Location</h2>
+    <div class="content-card">
       <form method="POST" action="/event_machine/all-done">
-          <h3>Where do you live?</h3>
+          <h3>Location</h3>
+          <p>Where do you live?</p>
           <input type="text" name="city" placeholder="City">
           <label>State</label>
           <select name="state">
@@ -319,6 +320,7 @@
         <input type="text" name="zip" placeholder="Zip code">
         <input type="submit" name="next" value="Next">
       </form>
+     </div>
       <div class="progress-status">
           <div></div>
           <div></div>
@@ -326,5 +328,4 @@
           <div></div>
       </div>
   </main>
-  <footer><p>All rights reserved &copy; 2025</p></footer>
 </div>
