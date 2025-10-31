@@ -46,7 +46,9 @@ switch ($page) {
     case '/event_machine/messages':
         require '../src/views/messages/view_all.php';
         break;
-
+    case '/event_machine/settings':
+        require '../src/views/user/settings.php';
+        break;
 
 
 }
