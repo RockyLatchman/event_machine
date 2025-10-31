@@ -11,10 +11,10 @@
       </nav>
   </header>
   <main>
-     <h2>Tell us about your interest</h2>
-     <div class="main-card">
+     <div class="content-card">
       <form method="POST">
-         <label>Sports and outdoor activities<label>
+          <h3>Tell us about your interest</h3>
+         <p>Sports and outdoor activities<p>
          <select name="outdoor-activities">
              <option value="hiking">Hiking</option>
              <option value="jogging">Jogging</option>
