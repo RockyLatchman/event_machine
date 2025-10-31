@@ -53,6 +53,26 @@ text-decoration: none;
 color: #400862;
 }
 
+.top-menu.large {
+width: 100%;
+padding: 0;
+margin-top: 35px;
+}
+
+.top-menu.large nav menu {
+width: 100%;
+}
+
+.top-menu.large nav menu li {
+display: inline-block;
+margin-right: 25px;
+width: 75px;
+}
+
+.top-menu.large nav menu li:last-of-type {
+width: 120px;
+}
+
 .top-menu nav menu li {
 display: inline-block;
 list-style-type: none;
@@ -81,7 +101,7 @@ margin: 25px auto 0 auto;
 main h1 {
 font: normal 700 5em "sigmund-pro", sans-serif;
 color: #fafafa;
-margin-top: 35px;
+margin-top: 75px;
 }
 
 main span a {
@@ -135,7 +155,6 @@ text-decoration: none;
 line-height: 2.4em;
 margin: 5px auto 0 auto;
 }
-
 
 
 .content-card form {
@@ -253,7 +272,134 @@ color: #fafafa;
 cursor: pointer;
 }
 
+/* browse events */
 
+.main-content {
+background: #f5f5f5;
+width: 100%;
+height: auto;
+padding-top: 50px;
+}
+
+.content {
+width: 75%;
+margin: 0 auto;
+}
+
+.content header {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+margin-top: 0px;
+}
+
+.content h3 {
+font: normal 500 1.2em "sigmund-pro", sans-serif;
+width: 75%;
+}
+
+.content header .event-filters {
+display: flex;
+flex-direction: row;
+width: auto;
+}
+
+.content header select {
+width: 40%;
+border-radius: 5px;
+height: 35px;
+padding-left: 5px;
+margin-right: 25px;
+font: normal 500 0.8em "sigmund-pro", sans-serif;
+outline: none;
+}
+
+.content header #today,
+.content header #month
+{
+border: 2px solid #8220BF;
+color: #8220BF;
+border-radius: 5px;
+width: 130px;
+height: 32px;
+font: normal 500 0.8em "sigmund-pro", sans-serif;
+text-align: center;
+line-height: 2.5em;
+margin-right: 25px;
+margin-top: 0;
+cursor: pointer;
+}
+
+.event-card {
+display: flex;
+flex-direction: row;
+background: #fff;
+width: 100%;
+height: 230px;
+border-radius: 25px;
+margin-bottom: 35px;
+}
+
+.event-card .left-column {
+display: flex;
+width: 25%;
+justify-content: center;
+align-items: center;
+}
+
+.event-card .left-column img {
+display: block;
+width: 230px;
+height: 170px;
+border-radius: 35px;
+border: 6px solid #400862;
+}
+
+.event-card .right-column {
+width: 75%;
+}
+
+.event-card .right-column h3 {
+width: 95%;
+margin-left: auto;
+font: normal 700 1.2em "sigmund-pro", sans-serif;
+color: #8220BF;
+}
+
+.event-card .right-column header p {
+width: 25%;
+font: normal 500 0.8em "sigmund-pro", sans-serif;
+color: #400862;
+text-align: left;
+}
+
+.event-card .group-details p {
+width: 75%;
+font: normal 400 0.8em "sigmund-pro", sans-serif;
+color: #400862;
+text-align: justify;
+line-height: 1.8em;
+margin-top: -20px;
+margin-bottom: 25px;
+}
+
+.event-card .right-column ul li {
+display: inline-block;
+width: 150px;
+height: 40px;
+list-style-type: none;
+margin-right: 15px;
+text-align: center;
+line-height: 2.5em;
+border: 1px solid #400862;
+border-radius: 10px;
+}
+
+.event-card .right-column ul li a {
+font: normal 500 0.9em "sigmund-pro", sans-serif;
+color: #400862;
+text-decoration: none;
+}
 
 
 

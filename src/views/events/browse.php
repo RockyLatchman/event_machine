@@ -1,5 +1,5 @@
 <div class="page-wrapper">
-  <header>
+  <header class="top-menu large">
      <h3>Event Machine</h3>
       <nav>
         <menu>
@@ -7,16 +7,17 @@
             <li><a href="/event_machine/personal/events">Your events</a></li>
             <li><a href="/event_machine/messages">Messages</a></li>
             <li><a href="/event_machine/settings">Settings</a></li>
-            <li><a href="/event_machine/logout" id="logout">Log out</a></li>
+            <li><a href="/event_machine/logout" class="logout">Log out</a></li>
         </menu>
       </nav>
   </header>
-  <main>
+  <main class="main-content">
+   <div class="content">
+    <h3>Here are some upcoming local events curated for you</h3>
     <header>
-       <h2>Here are some upcoming local events curated for you</h2>
        <div class="event-filters">
-       <div id="today">Today</div>
-       <div id="month">Next 30 days</div>
+         <div id="today">Today</div>
+         <div id="month">Next 30 days</div>
        </div>
        <select name="category">
            <option value="" selected>Choose category</option>
@@ -34,12 +35,12 @@
     </header>
       <div class="event-card">
           <div class="left-column">
-             <img src="/event_machine/public/images/" alt="Image of event">
+             <img src="/event_machine/public/images/dating.jpg" alt="Image of event">
           </div>
           <div class="right-column">
              <header>
-                <p>Los Angeles<span> 10 mi from you</span></p>
                 <h3>Single 40 somethins</h3>
+                <p>Los Angeles<span> 10 mi from you</span></p>
              </header>
              <div class="group-details">
                 <p>
@@ -55,12 +56,12 @@
       </div>
       <div class="event-card">
           <div class="left-column">
-             <img src="/event_machine/public/images/" alt="Image of event">
+             <img src="/event_machine/public/images/cafe.jpg" alt="Image of event">
           </div>
           <div class="right-column">
              <header>
-                <p>Los Angeles<span> 10 mi from you</span></p>
                 <h3>Single 40 somethins</h3>
+                <p>Los Angeles<span> 10 mi from you</span></p>
              </header>
              <div class="group-details">
                 <p>
@@ -76,12 +77,12 @@
       </div>
       <div class="event-card">
           <div class="left-column">
-             <img src="/event_machine/public/images/" alt="Image of event">
+             <img src="/event_machine/public/images/darts.jpg" alt="Image of event">
           </div>
           <div class="right-column">
              <header>
-                <p>Los Angeles<span> 10 mi from you</span></p>
                 <h3>Single 40 somethins</h3>
+                <p>Los Angeles<span> 10 mi from you</span></p>
              </header>
              <div class="group-details">
                 <p>
@@ -97,12 +98,12 @@
       </div>
       <div class="event-card">
           <div class="left-column">
-             <img src="/event_machine/public/images/" alt="Image of event">
+             <img src="/event_machine/public/images/poker.jpg" alt="Image of event">
           </div>
           <div class="right-column">
              <header>
-                <p>Los Angeles<span> 10 mi from you</span></p>
                 <h3>Single 40 somethins</h3>
+                <p>Los Angeles<span> 10 mi from you</span></p>
              </header>
              <div class="group-details">
                 <p>
@@ -118,12 +119,12 @@
       </div>
       <div class="event-card">
           <div class="left-column">
-             <img src="/event_machine/public/images/" alt="Image of event">
+             <img src="/event_machine/public/images/hackathon.jpg" alt="Image of event">
           </div>
           <div class="right-column">
              <header>
+                 <h3>Single 40 somethins</h3>
                 <p>Los Angeles<span> 10 mi from you</span></p>
-                <h3>Single 40 somethins</h3>
              </header>
              <div class="group-details">
                 <p>
@@ -136,6 +137,7 @@
                 </ul>
              </div>
           </div>
+      </div>
       </div>
   </main>
 </div>
