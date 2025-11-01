@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 require '../models/Event.php';
 
 class EventController {
@@ -18,7 +19,7 @@ class EventController {
         //Get all events
     }
 
-    public function filter_events() {
+    public function filter_events(string $filter) {
        //filter by user id, date, location and category
     }
 
@@ -28,5 +29,11 @@ class EventController {
 
     public function edit_event($event_id) {
 
+    }
+
+    public function calculate_distance(){
+        /* calculate the distance between users city
+           and the location of the event
+        */
     }
 }
