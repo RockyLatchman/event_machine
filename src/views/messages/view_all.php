@@ -1,5 +1,5 @@
 <div class="page-wrapper">
-  <header>
+  <header class="top-menu large">
      <h3>Event Machine</h3>
       <nav>
           <menu>
@@ -11,10 +11,10 @@
           </menu>
       </nav>
   </header>
-  <main>
-     <h2>Messages</h2>
-    <div class="content-card">
+  <main class="main-content">
+    <div class="content messages">
        <header>
+          <h3>Messages</h3>
           <select name="message-date-filter">
             <option value="today">Today</option>
             <option value="yesterday">Yesterday</option>
@@ -33,7 +33,7 @@
        </header>
        <div class="message-container">
            <div class="left-column">
-              <img src="/event_machine/public/images/" alt="Image of message sender">
+              <img src="/event_machine/public/images/profiles/user-00999.png" alt="Image of message sender">
            </div>
            <div class="right-column">
               <h4>Joey Doe</h4>
@@ -48,7 +48,7 @@
        </div>
        <div class="message-container">
            <div class="left-column">
-              <img src="/event_machine/public/images/" alt="Image of message sender">
+              <img src="/event_machine/public/images/profiles/user-004563456.png" alt="Image of message sender">
            </div>
            <div class="right-column">
               <h4>Joey Doe</h4>
@@ -63,7 +63,7 @@
        </div>
        <div class="message-container">
            <div class="left-column">
-              <img src="/event_machine/public/images/" alt="Image of message sender">
+              <img src="/event_machine/public/images/profiles/user-5345345.png" alt="Image of message sender">
            </div>
            <div class="right-column">
               <h4>Joey Doe</h4>
@@ -78,5 +78,4 @@
        </div>
     </div>
   </main>
-  <footer><p>All rights reserved &copy; 2025</p></footer>
 </div>
