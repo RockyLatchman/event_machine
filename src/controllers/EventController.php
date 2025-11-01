@@ -36,4 +36,12 @@ class EventController {
            and the location of the event
         */
     }
+
+    public function send_group_request(){
+      //send request to join group
+    }
+
+    public function attend_event(){
+
+    }
 }

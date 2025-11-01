@@ -28,7 +28,7 @@
           </select>
           <menu>
              <li><i class="fa-solid fa-trash-can"></i></li>
-             <li><i class="fa-solid fa-paper-plane"></i></li>
+             <li id="send"><i class="fa-solid fa-paper-plane"></i></li>
           </menu>
        </header>
        <div class="message-container">
