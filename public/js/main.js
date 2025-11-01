@@ -2,9 +2,9 @@ const sendMessageButton = document.querySelector('#send');
 const friendNames = document.querySelectorAll('.right-column h4');
 const friendImages = document.querySelectorAll('.left-column img');
 const currentUser = {
-  'image' : '',
-  'name' : ''
-}
+  'image': '',
+  'name': ''
+};
 
 const sidePanel = `
     <div class="side-panel">
@@ -13,7 +13,10 @@ const sidePanel = `
          <h3>Message</h3>
          <div id="message-box">
            <ul>
-           <li><img src="/event_machine/public/images/profiles/${currentUser.image}" alt="Image of ${currentUser.name}">${currentUser.name}</li>
+             <li>
+               <img src="/event_machine/public/images/profiles/${currentUser.image}" alt="Image of ${currentUser.name}">
+               ${currentUser.name}
+             </li>
            </ul>
            <textarea name="message" placeholder="Hola...."></textarea>
           </div>
@@ -22,7 +25,11 @@ const sidePanel = `
     </div>
 `;
 
-
+function overlayWindow() {
+  const overlay = document.createElement('div');
+  overlay.setAttribute('id', 'overlay');
+  return overlay;
+}
 
 
 function loadSidePanel() {

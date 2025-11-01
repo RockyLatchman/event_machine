@@ -522,6 +522,17 @@ text-align: right;
 
 }
 
+/* slide panel */
+
+.overlay {
+display: none;
+width: 100%;
+height: 100vh;
+background: rgba(64,8,98,0.3);
+}
+
+
+
 
 footer p {
 font: normal 500 0.8em "sigmund-pro", sans-serif;
